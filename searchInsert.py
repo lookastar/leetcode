@@ -25,6 +25,6 @@ class Solution:
             if target>nums[center]:
                 a=center+1
             else:
-                if b==a+1:
-                    return a
                 b=center-1
+
+        return a
