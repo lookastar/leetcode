@@ -55,20 +55,20 @@ class Solution:
         return head
 
 
-def main():
-    sol = Solution()
-    a,b,c,d,e = ListNode(4), ListNode(3), ListNode(2), ListNode(5), ListNode(2)
-    a.next = b
-    b.next = c
-    c.next = d
-    d.next = e
+# def main():
+#     sol = Solution()
+#     a,b,c,d,e = ListNode(4), ListNode(3), ListNode(2), ListNode(5), ListNode(2)
+#     a.next = b
+#     b.next = c
+#     c.next = d
+#     d.next = e
 
-    a.printList()
+#     a.printList()
 
-    sol.partition(a, 3)
+#     sol.partition(a, 3)
 
-    a.printList()
+#     a.printList()
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()
 
