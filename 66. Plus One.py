@@ -11,6 +11,5 @@ class Solution:
         if digits[0] > 9:
             digits[0] = 0
             digits.insert(0, 1)
-            return digits
-        else:
-            return digits
+        
+        return digits
